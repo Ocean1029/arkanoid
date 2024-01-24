@@ -22,5 +22,5 @@ if __name__ == '__main__':
         game_progress_data = game.get_scene_progress_data()
         game_view.draw(game_progress_data)
         frame_count += 1
-
+    print(game.get_game_result())
     pygame.quit()
